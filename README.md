@@ -1,8 +1,8 @@
 # Instagram User Analytics with Machine Learning
 
-## This project analyzes Instagram user engagement using machine learning techniques. It applies K-Means clustering to categorize users based on metrics like followers, likes, and comments.
+This project analyzes Instagram user engagement using machine learning techniques. It applies K-Means clustering to categorize users based on metrics like followers, likes, and comments.
 
-# Features
+## Features
 
 Loads Instagram user data from a CSV file
 
@@ -14,7 +14,7 @@ Visualizes clusters using a scatter plot
 
 Saves clustered results to a CSV file
 
-# Installation
+## Installation
 
 Clone the repository:
 
@@ -25,7 +25,7 @@ Install dependencies:
 
 pip install pandas numpy matplotlib scikit-learn
 
-# Usage
+## Usage
 
 Prepare your dataset: Ensure instagram_data.csv contains columns:
 
@@ -39,12 +39,12 @@ likes
 
 comments
 
-# Run the script:
+## Run the script:
 
 python instagram_analytics.py
 
 View the results in instagram_user_clusters.csv.
 
-# Visualization
+## Visualization
 
 The script generates a scatter plot showing user clusters (followers vs. likes), providing insights into different engagement groups.
